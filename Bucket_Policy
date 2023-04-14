@@ -1,0 +1,28 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::CUSTOMER_ACCOUNT_ID:root" 
+            },
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::mybucket221a<CUSTOMER_BUCKET_NAME>"
+        },
+        {
+            "Sid": "Statement2",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::XXXXXXXXX:role/s3-read-only-access" ##### <ARN_OF_your_INSTANCE_ROLE>
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::mybucket221a/myfolder/*",
+            "Condition": {
+                "StringEquals": {
+                    "aws:SourceVpce": "vpce-<VPC_ENDPOINT_ID"
+                }
+            }
+        }
+    ]
+}
