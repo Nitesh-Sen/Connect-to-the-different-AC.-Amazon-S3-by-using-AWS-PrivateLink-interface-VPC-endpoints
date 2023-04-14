@@ -28,7 +28,7 @@
 		     <br />
 	- Launch the *EC2 instance* in Same Region, VPC, Subnet as you configred VPC endpoint.
 		-  
-		- Here I put the picture 
+		- Here I put the picture <br /> 
 		  <img alt="coding" width="700" src="https://github.com/Nitesh-Sen/Connect-to-the-different-AC.-Amazon-S3-by-using-AWS-PrivateLink-interface-VPC-endpoints/blob/97fe22d681a1c089c6a6507c9464ad12947260bd/Images/Image01-01-28_2023-04-15.png"> 
 		  <br /> 
 
