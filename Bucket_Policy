@@ -8,7 +8,7 @@
                 "AWS": "arn:aws:iam::CUSTOMER_ACCOUNT_ID:root" 
             },
             "Action": "s3:*",
-            "Resource": "arn:aws:s3:::mybucket221a<CUSTOMER_BUCKET_NAME>"
+            "Resource": "arn:aws:s3:::mybucket221a" #########<CUSTOMER_BUCKET_NAME>
         },
         {
             "Sid": "Statement2",
