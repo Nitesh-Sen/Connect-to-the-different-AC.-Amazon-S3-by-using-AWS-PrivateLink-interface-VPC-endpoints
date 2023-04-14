@@ -1,7 +1,7 @@
 
 # Connect to _Amazon S3_ by using _AWS_ PrivateLink interface _VPC_ endpoints
 ## Follow these Steps:-
-- Take two AWS account:- account A(engineer AC.) and account B(costomer AC.)
+- Take two AWS account:- account A(your AC.) and account B(costomer AC.)
 > 
 - Sign in Account A
 	- 
