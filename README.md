@@ -26,6 +26,12 @@
 		     > ***VPC endpoint is configured and created.***
 	- Launch the *EC2 instance* in Same Region, VPC, Subnet as you configred VPC endpoint.
 		-  
-		- Here I put the picture <br /> 
-		  <img alt="coding" width="700" src="https://github.com/Nitesh-Sen/Connect-to-the-different-AC.-Amazon-S3-by-using-AWS-PrivateLink-interface-VPC-endpoints/blob/97fe22d681a1c089c6a6507c9464ad12947260bd/Images/Image01-01-28_2023-04-15.png"> <br /> 
-		  
+		- Here I put the picture <br />
+		  <img alt="coding" width="700" src="https://github.com/Nitesh-Sen/Connect-to-the-different-AC.-Amazon-S3-by-using-AWS-PrivateLink-interface-VPC-endpoints/blob/97fe22d681a1c089c6a6507c9464ad12947260bd/Images/Image01-01-28_2023-04-15.png"> 
+		  <br /> 
+
+-  Sign in Customer Account
+	- 
+	- [Go in S3 service and create a bucket](https://s3.console.aws.amazon.com/s3/buckets?region=us-west-1&region=us-west-1) <br /> 
+		<img alt="coding" width="700" src="https://github.com/Nitesh-Sen/Connect-to-the-different-AC.-Amazon-S3-by-using-AWS-PrivateLink-interface-VPC-endpoints/blob/e0c70660cb33b9b13a5029c742180538188b889b/CustomerAC_Image/Image02-04-03_2023-04-15.png"> <br /> 
+	  
