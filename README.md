@@ -46,7 +46,7 @@
             "Sid": "Statement1",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::CUSTOMER_ACCOUNT_ID:root" #########<CUSTOMER_BUCKET_NAME>
+                "AWS": "arn:aws:iam::CUSTOMER_ACCOUNT_ID:root" 
             },
             "Action": "s3:*",
             "Resource": "arn:aws:s3:::mybucket221a"
