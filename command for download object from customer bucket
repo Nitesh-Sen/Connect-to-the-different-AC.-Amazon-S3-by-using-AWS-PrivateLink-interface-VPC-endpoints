@@ -1,0 +1,1 @@
+aws s3 --region us-west-1 --endpoint-url https://bucket.vpce-0XXXXXXXXX4-laxz5iid-us-west-1b.s3.us-west-1.vpce.amazonaws.com cp s3://mybucket221a/myfolder/flameshot.ini .
